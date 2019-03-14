@@ -7,11 +7,11 @@ More details are included in each of the notebook files.
 
 # Requirements
 * [Google Datalab](https://cloud.google.com/datalab/) - Click [here](https://koenaerts.ca/running-google-datalab-locally/) to learn how to run Datalab on your local workstation or VM.
-* [Python](https://www.python.org/) - This may already come installed on your Linux distribution.
+* [Python](https://www.python.org/) - This may already come installed on your Linux distribution. Recommended version is 3.
 * [NumPy](https://docs.scipy.org/doc/numpy/dev/)
 * [Matplotlib](https://matplotlib.org/)
 * [wfdb](https://pypi.org/project/wfdb/)
-* [mitdb](https://github.com/Nospoko/qrs-tutorial) - You'll need the code from the "datasets" and the "utils" directory.
+* [mitdb](https://github.com/Nospoko/qrs-tutorial) - You'll need the code from the "datasets" and the "utils" directory. In Python 3 you may see compilation errors for this library. In most cases you just need to put round brackets in the "print" statements - example "print '123'" would become "print('123')". In one case you need to replace an import statement from "import urllib2" to "import urllib.request as urllib2". The error messages from your notebook will guide you to the proper files. Files affected are "datasets/mitdb.py" and "utils/download.py".
 * [BioSPPy](https://github.com/PIA-Group/BioSPPy)
 * [Tensorflow](https://www.tensorflow.org/)
 
